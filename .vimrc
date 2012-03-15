@@ -1,5 +1,14 @@
-nnoremap ; :
 filetype plugin indent on
+
+" Allow use of ; as :
+nnoremap ; :
+
+" Disable arrow key navigation
+noremap <Up> <nop>
+noremap <Down> <nop>
+noremap <Left> <nop>
+noremap <Right> <nop>
+
 set nocompatible
 syntax on
 set modelines=0
