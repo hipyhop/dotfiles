@@ -9,6 +9,27 @@ noremap <Down> <nop>
 noremap <Left> <nop>
 noremap <Right> <nop>
 
+" Sane line scrolling for wrapped lines
+nnoremap j gj
+nnoremap k gk
+
+" CTRL + H,j,K,L to move split windows
+noremap <C-h> <C-w>h
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
+noremap <C-l> <C-w>l
+
+" Disable arrow keys for navigation
+noremap <UP> <nop>
+noremap <Down> <nop>
+noremap <Left> <nop>
+noremap <Right> <nop>
+
+" Use capital H and L to goto beginning / end of line
+map H ^
+map L $
+
+set number      " line numbers
 set nocompatible
 syntax on
 set modelines=0
