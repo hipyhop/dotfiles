@@ -1,3 +1,11 @@
+filetype off
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+Bundle 'scrooloose/syntastic'
+Bundle 'tpope/vim-surround'
+Bundle 'kien/ctrlp.vim'
+Bundle 'myusuf3/numbers.vim'
 filetype plugin indent on
 
 " Allow use of ; as :
